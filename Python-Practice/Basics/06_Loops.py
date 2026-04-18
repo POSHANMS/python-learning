@@ -69,3 +69,18 @@ print("Current Letter :", letter)
 for letter in 'geeksforgeeks':
     pass
 print('Last Letter :', letter)
+
+# Using Else with Loops
+
+for i in range(1, 4):
+    print(i)
+else:  # Executed because no break in for
+    print("No Break")
+
+count = 0
+while (count < 1):
+    count = count+1
+    print(count)
+    break
+else:
+    print("No Break")
