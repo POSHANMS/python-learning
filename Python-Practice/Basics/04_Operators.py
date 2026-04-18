@@ -61,23 +61,23 @@ print(a is c)
 
 # Membership Operators
 
-list = [10, 15, 20, 30, 40, 50]
+numbers = [10, 15, 20, 30, 40, 50]
 
-if (a not in list):
+if (a not in numbers):
     print("x is NOT present in given list")
 else:
     print("x is present in given list")
 
-if(b in list):
+if(b in numbers):
     print("y is prsent in given list")
 else:
     print("y is not present in given list")
 
 # Ternary Operator
 
-min = a if a < b else b
-max = a if a >b else b
-print(min, max)
+minimum = a if a < b else b
+maximum = a if a >b else b
+print(minimum, maximum)
 
 # := Walrus Operator
 

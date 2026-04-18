@@ -17,7 +17,7 @@ for x in tup:
 
 s = "abc"
 for x in s:
-    print(s)
+    print(x)
 
 d = dict({"x":123, "y":456})
 for x in d:

@@ -11,4 +11,4 @@ if age>=18:
 
 num = int(input("Enter a number: "))
 if num > 0 :
-    print("The number is postive.")
+    print("The number is positive.")
