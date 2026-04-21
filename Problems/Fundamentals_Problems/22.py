@@ -25,3 +25,7 @@ def lcmAndGcd(a: int, b: int) -> List[int]:
     gcd = x
     lcm = (a * b) // gcd
     return [lcm, gcd]
+
+a = int(input("Enter a: "))
+b = int(input("Enter b: "))
+print(lcmAndGcd(a, b))
