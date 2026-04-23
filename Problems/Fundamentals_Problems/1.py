@@ -13,3 +13,4 @@ def NSum(n):
 
 print(NSum(5))
 print(NSum(10))
+
